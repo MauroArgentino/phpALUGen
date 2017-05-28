@@ -1,0 +1,4 @@
+<center><font color="red">Tu versión de phpALUGen está desactualizada.
+Puede obtener la nueva versión, Version <b>3.4.1</b>, visitando
+<a href="http://www.activelocksoftware.com/">este sitio web</a>.<br />
+Puede desactivar esta advertencia en la página de opciones.</font></center>

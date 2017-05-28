@@ -1,0 +1,14 @@
+CHANGELOG
+
+3.3.0 -> 3.4.1
+ Added Strict compatibility with 3.3 and 3.4 code, but keys generated in one
+  version work with the other version (3.3 includes the time of expiration,
+  3.4 just includes the date).
+ 
+ Made selection of products with " - " in the name possible through the admin.
+  interface.
+ 
+ Changed automatic line-wrapping in admin. interface to 64 characters, not the
+  base64 default of 76.
+ 
+ Added update checking to the admin. interface. Can be turned off in config.

@@ -1,0 +1,409 @@
+<html>
+<head>
+<title>Docs For Class phpALUGen_ProductLibrary_file</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">phpALUGen</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+  		  [ <a href="../classtrees_phpALUGen.html" class="menu">class tree: phpALUGen</a> ]
+		  [ <a href="../elementindex_phpALUGen.html" class="menu">index: phpALUGen</a> ]
+		  [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_phpALUGen.html">phpALUGen</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../phpALUGen/_keyTools_php.html">		keyTools.php
+		</a><br>
+			<a href="../phpALUGen/_miscClasses_php.html">		miscClasses.php
+		</a><br>
+			<a href="../phpALUGen/_phpALUGen_php.html">		phpALUGen.php
+		</a><br>
+			<a href="../phpALUGen/_productLibrary_php.html">		productLibrary.php
+		</a><br>
+	  </div><br />
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../phpALUGen/phpALUGen.html">phpALUGen</a><br />
+	    		<a href="../phpALUGen/phpALUGen_License.html">phpALUGen_License</a><br />
+	    		<a href="../phpALUGen/phpALUGen_ProductInfo.html">phpALUGen_ProductInfo</a><br />
+	    		<a href="../phpALUGen/phpALUGen_ProductLibrary.html">phpALUGen_ProductLibrary</a><br />
+	    		<a href="../phpALUGen/phpALUGen_ProductLibrary_file.html">phpALUGen_ProductLibrary_file</a><br />
+	    		<a href="../phpALUGen/phpALUGen_ProductLibrary_mysql.html">phpALUGen_ProductLibrary_mysql</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: phpALUGen_ProductLibrary_file</h1>
+Source Location: /productLibrary.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre><a href="../phpALUGen/phpALUGen_ProductLibrary.html">phpALUGen_ProductLibrary</a>
+   |
+   --phpALUGen_ProductLibrary_file</pre><br />
+<div class="description">A file-based interface to the Product Library</div><br /><br />
+
+
+
+
+
+
+
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../phpALUGen/phpALUGen_ProductLibrary_file.html#var$fileName">$fileName</a></li>
+  </ul>
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../phpALUGen/phpALUGen_ProductLibrary_file.html#methodphpALUGen_ProductLibrary_file">phpALUGen_ProductLibrary_file</a></li>
+    <li><a href="../phpALUGen/phpALUGen_ProductLibrary_file.html#methodsearchForAllProducts">searchForAllProducts</a></li>
+    <li><a href="../phpALUGen/phpALUGen_ProductLibrary_file.html#methodsearchForProduct">searchForProduct</a></li>
+    <li><a href="../phpALUGen/phpALUGen_ProductLibrary_file.html#methodspecialAddProduct">specialAddProduct</a></li>
+    <li><a href="../phpALUGen/phpALUGen_ProductLibrary_file.html#methodspecialRemoveProduct">specialRemoveProduct</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+<td valign="top">
+<h3>Inherited Variables</h3>
+<div class="tags">
+<h4>Class: <a href="../phpALUGen/phpALUGen_ProductLibrary.html">phpALUGen_ProductLibrary</a></h4>
+<dl>
+<dt>
+  <a href="../phpALUGen/phpALUGen_ProductLibrary.html#var$gotWholeListing">phpALUGen_ProductLibrary::$gotWholeListing</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../phpALUGen/phpALUGen_ProductLibrary.html#var$products">phpALUGen_ProductLibrary::$products</a>
+  </dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Methods</h3>
+<div class="tags">
+<h4>Class: <a href="../phpALUGen/phpALUGen_ProductLibrary.html">phpALUGen_ProductLibrary</a></h4>
+<dl>
+    <dt>
+    <a href="../phpALUGen/phpALUGen_ProductLibrary.html#methodaddProduct">phpALUGen_ProductLibrary::addProduct()</a>
+  </dt>
+  <dd>
+    Adds a product to the library.
+  </dd>
+    <dt>
+    <a href="../phpALUGen/phpALUGen_ProductLibrary.html#methodgetAllProducts">phpALUGen_ProductLibrary::getAllProducts()</a>
+  </dt>
+  <dd>
+    Retrieves product information for all products in the library.
+  </dd>
+    <dt>
+    <a href="../phpALUGen/phpALUGen_ProductLibrary.html#methodgetProductsIni">phpALUGen_ProductLibrary::getProductsIni()</a>
+  </dt>
+  <dd>
+    Returns a suitable products.ini file from the products in the library.
+  </dd>
+    <dt>
+    <a href="../phpALUGen/phpALUGen_ProductLibrary.html#methodloadProductsIni">phpALUGen_ProductLibrary::loadProductsIni()</a>
+  </dt>
+  <dd>
+    Loads products from a products.ini-formatted string.
+  </dd>
+    <dt>
+    <a href="../phpALUGen/phpALUGen_ProductLibrary.html#methodremoveProduct">phpALUGen_ProductLibrary::removeProduct()</a>
+  </dt>
+  <dd>
+    Removes a product's information from the library.
+  </dd>
+    <dt>
+    <a href="../phpALUGen/phpALUGen_ProductLibrary.html#methodretrieveProduct">phpALUGen_ProductLibrary::retrieveProduct()</a>
+  </dt>
+  <dd>
+    Retrieves a product's information from the library.
+  </dd>
+  </dl>
+</div>
+</td>
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 430]<br />
+A file-based interface to the Product Library<br /><br /></div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$fileName"></a>
+	<p></p>
+	<h4>$fileName = <span class="value"></span></h4>
+	<p>[line 436]</p>
+  The filename of the library file<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+  <hr />
+	<a name="methodphpALUGen_ProductLibrary_file"></a>
+	<h3>constructor phpALUGen_ProductLibrary_file <span class="smalllinenumber">[line 445]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>phpALUGen_ProductLibrary_file phpALUGen_ProductLibrary_file(
+string
+$file_name)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Constructor Function.<br /><br /><p>Loads the .ini file and parses it</p><br /><br /><br />
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$file_name</b>&nbsp;&nbsp;</td>
+        <td>The name of the file (in products.ini format)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsearchForAllProducts"></a>
+	<h3>method searchForAllProducts <span class="smalllinenumber">[line 480]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array searchForAllProducts(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Specialized product-searching routine<br /><br /><p>Searches the database for all products, and assembles an array of  phpALUGen_ProductInfo classes</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>The array of all products found (may be empty)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsearchForProduct"></a>
+	<h3>method searchForProduct <span class="smalllinenumber">[line 466]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code><a href="../phpALUGen/phpALUGen_ProductInfo.html">phpALUGen_ProductInfo</a>|false searchForProduct(
+string
+$prodName, string
+$prodVer)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Specialized product-searching routine<br /><br /><p>Searches the database for the product, and assembles a phpALUGen_ProductInfo  class if it is found</p><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>The product's information, if found. Otherwise, false.</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$prodName</b>&nbsp;&nbsp;</td>
+        <td>The product name to search for</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$prodVer</b>&nbsp;&nbsp;</td>
+        <td>The version of the product to search for</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodspecialAddProduct"></a>
+	<h3>method specialAddProduct <span class="smalllinenumber">[line 493]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean specialAddProduct(
+<a href="../phpALUGen/phpALUGen_ProductInfo.html">phpALUGen_ProductInfo</a>
+$newProduct)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Specialized product-adding routine<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>Success</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type"><a href="../phpALUGen/phpALUGen_ProductInfo.html">phpALUGen_ProductInfo</a>&nbsp;&nbsp;</td>
+        <td><b>$newProduct</b>&nbsp;&nbsp;</td>
+        <td>Product info to add</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodspecialRemoveProduct"></a>
+	<h3>method specialRemoveProduct <span class="smalllinenumber">[line 510]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean specialRemoveProduct(
+string
+$prodName, string
+$prodVer)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Specialized product-removing routine<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>Success</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>private</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$prodName</b>&nbsp;&nbsp;</td>
+        <td>Name of product to remove</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$prodVer</b>&nbsp;&nbsp;</td>
+        <td>Version of product to remove</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Sat, 18 Jun 2005 15:55:43 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.3.0RC3</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
